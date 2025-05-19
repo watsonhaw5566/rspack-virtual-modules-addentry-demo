@@ -2,7 +2,7 @@
 
 用于反馈 rspack 在 自定义 loader 中加入虚拟路径的入口文件会显示找不到该文件
 
-主要 loader 逻辑如下
+测试 loader 逻辑如下
 
 ```js
 const VirtualModulesPlugin = require('webpack-virtual-modules');
