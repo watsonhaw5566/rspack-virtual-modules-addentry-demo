@@ -1,0 +1,19 @@
+{
+  "name": "rspack-virual-modules-addentry-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack dev"
+  },
+  "private": true,
+  "dependencies": {
+    "@rspack/core": "npm:@rspack-canary/core@1.3.11-canary-8548f2b8-20250515085246",
+    "rspack-plugin-virtual-module": "^1.0.0",
+    "webpack-virtual-modules": "^0.6.2"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.3.10"
+  }
+}
